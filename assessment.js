@@ -1,4 +1,4 @@
-// 'user strict'; は、宣言後の機銃tミスをエラーとして表示してくれる機能を呼び出すための記述。（厳格モード）
+// 'user strict'; は、宣言後の記述ミスをエラーとして表示してくれる機能を呼び出すための記述。（厳格モード）
 'user strict';
 const userNameInput = document.getElementById('user-name');
 const assessmentButton = document.getElementById('assessment');
@@ -78,7 +78,7 @@ const answers = [
     '{userName}のいいところは好奇心です。新しいことに向かっていく{userName}の心構えが多くの人に魅力的に映ります。',
     '{userName}のいいところは気配りです。{userName}の配慮が多くの人を救っています。',
     '{userName}のいいところはその全てです。ありのままの{userName}自身がいいところなのです。',
-    '{userName}のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる{userName}が皆から評価されています。'
+    '{userName}のいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる{userName}が皆から評価されています。',
     '{userName}のいいところは優しさです。{userName}の優しい雰囲気や立ち振る舞いに多くの人が癒やされています。'
 ];
 /**
